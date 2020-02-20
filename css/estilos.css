@@ -1,0 +1,21 @@
+@keyframes animacion_titutlo{
+	from{
+		background-color: #05FCF8;
+	}
+	to{
+		background-color: #00FD04;
+	}
+}
+.titulo{
+	width: 100%;
+	background-color: #FFFFFF;
+	color: white;
+	text-align: center;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	animation-name: animacion_titulo;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
